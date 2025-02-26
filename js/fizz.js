@@ -6,17 +6,17 @@ for (let i = 1; i <= 100; i++) {
     //Se l'indice è un numero divisibile per 3 e 5
     if (isDivisibleBy3 && isDivisibleBy5) {
         //Stampa "BUZZFIZZ"
-        console.log("fizzbuzz");
+        console.log("fizzbuzz", i);
     }
     // Altrimenti se l'indice un numero divisibile per 5
     else if (isDivisibleBy5) {
         //Stampa "BUZZ"
-        console.log("buzz");
+        console.log("buzz", i);
     }
     //Altrimenti se l'indice è un numero divisibile per 3
     else if (isDivisibleBy3) {
         //Stampa "FIZZ"
-        console.log("fizz");
+        console.log("fizz", i);
     }
     // Stampa l'indice
     else {
